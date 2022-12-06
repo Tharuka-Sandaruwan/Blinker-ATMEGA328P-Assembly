@@ -8,5 +8,7 @@
 
 ; Replace with your application code
 start:
-SBI DDRB ,0 
+SBI DDRB ,0 ;making pin 8 (port b pin 0) as an output pin
+SBI PORT ,0 ;making the pin 8 high
+
 
