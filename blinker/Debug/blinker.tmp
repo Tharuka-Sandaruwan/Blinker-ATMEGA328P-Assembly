@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>E:\university\lecture notes\year 2\Sem 2\embded systems\projects\blinker\blinker\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\university\lecture notes\year 2\Sem 2\embded systems\projects\blinker\blinker\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\university\lecture notes\year 2\Sem 2\embded systems\projects\blinker\blinker\Debug\blinker.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>blinker.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>blinker.map</FILE>
+  <FILE>blinker.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>E:\university\lecture notes\year 2\Sem 2\embded systems\projects\blinker\blinker\main.asm</FILE><LINE>10</LINE></start>
+ </LABELS>
+</ASSEMBLER_INFO>
