@@ -21,3 +21,9 @@ LOOP3:DEC R18 ; decrement  by register 18
 	  DEC R16
 	  BRNE LOOP1
 
+CBI PORT ,0 ;clear the bit (lower pin 8)
+
+
+
+
+
