@@ -14,9 +14,10 @@ int main(void)
     while (1) 
     {
 		PORTB = 0b00000001; // set the port b register value to 00000001.it will turn on the pin 0 of port b
-		_delay_ms(200); //set delay 200 ms
+		_delay_ms(500); //set delay 200 ms
 		PORTB = 0b00000000;
-		_delay_ms(200);
+		_delay_ms(500);
     }
+	return 0;
 }
 
