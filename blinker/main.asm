@@ -6,7 +6,7 @@
 	  SBI DDRB ,0 ;making pin 8 (port b pin 0) as an output pin
 START:SBI PORTB ,0 ;making the pin 8 high
 	  CALL DELAY ;delay function call	  
-	  CBI PORT ,0 ;clear the bit (lower pin 8)
+	  CBI PORTB ,0 ;clear the bit (lower pin 8)
 	  CALL DELAY
 	  JMP START ;goes again to start to run the loop infinitely
 
