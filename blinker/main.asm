@@ -33,4 +33,4 @@ LOOP3:DEC R18
 	  DEC R16
 	  BRNE LOOP1
 
-JMP START
+JMP START ;goes again to start to run the loop infinitely
