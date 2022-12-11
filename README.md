@@ -10,4 +10,6 @@ see the all compilled hex files inside the compiled directory
 
   If you want to start your code as soon as the microcontroller got the power,remove the bootloader by flashing the firmware with the use of a programmer(use arduino as ISP as it is easy and cheap if you have an extra arduino board) But you cant programme arduino directly connected to pc if you remove the bootloader.so to do that you have to flash it again
 
+</br>
+<b>PS: the flashing size of the hexfile to the rom of the atmega chip is not similar to the hex file size.</br>it is a different size than the hex file.</br>The correct size of the flashed file can be seen via the avrdude output window</b>
 
