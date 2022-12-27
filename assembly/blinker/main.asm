@@ -11,7 +11,7 @@ START:SBI PORTB ,0 ;making the pin 8 high
 	  JMP START ;goes again to start to run the loop infinitely
 
 ;BELOW IS THE DELAY FUNCTION
-DELAY:LDI R16,41
+DELAY:LDI R16,16
 LOOP1:LDI R17,255
 LOOP2:LDI R18,255 ;load immediate 255 to register 18
 LOOP3:DEC R18 ; decrement  by register 18
